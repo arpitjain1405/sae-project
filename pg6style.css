@@ -1,0 +1,92 @@
+.b{
+    text-align: center    ;
+ list-style-type: none;
+ 
+}
+.a{
+  display: inline;
+}
+.pad{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.list{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+.time{
+  padding: 10px;
+}
+.loc{
+  color: black;
+  display: inline;
+  
+  font-size: 12px;
+}
+.d{
+  float: right;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+hr{
+  clear: both;
+}
+.loc::before{
+  color:black;
+  display: inline-block;
+  content: "\2022";
+  width: 1em;
+  list-style-type: "*";
+  /* margin-left: -1em; */
+}
+a{
+ color: black;
+  text-decoration: none;
+}
+.pad:hover{
+    background-color:rgba(251, 36, 79, 0.945);
+    border-radius: 3px;
+
+}
+h1{
+  clear: both;
+  text-align: center;
+  font-family: cursive;
+}
+.logo{
+    float: left;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box2_1{
+    width: 300px;
+    margin-right: 200px;
+    clear: left;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+}
+body{
+  background-color:#efd9eb;
+}
+.but{
+  border: none;
+  background-color: rgb(253, 62, 100);
+  margin-top: 10px;
+}
+.but:hover{
+  opacity: 0.9;
+
+}
+.mar{
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
